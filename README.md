@@ -19,7 +19,7 @@ Data is fetched at daily intervals for the most recent 30 days.
    pip install pandas yfinance
 3. Run the ETL script:
     ```bash
-    python main.py
+    Python .\src\main.py
 4. The processed dataset will be saved automatically.
 
 ---

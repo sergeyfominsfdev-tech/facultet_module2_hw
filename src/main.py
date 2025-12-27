@@ -49,7 +49,7 @@ df
 # --- 3. Load ---
 print("🔹 Saving transformed data to CSV...")
 
-os.makedirs("../data/processed", exist_ok=True)
-df.to_csv("../data/processed/output.csv", index=False)
+os.makedirs("data/processed", exist_ok=True)
+df.to_csv("data/processed/output.csv", index=False)
 
 print("✅ File saved to data/processed/output.csv")
